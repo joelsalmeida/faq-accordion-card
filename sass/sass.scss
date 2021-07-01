@@ -180,7 +180,7 @@ body {
     border: none;
     background-color: white;
     text-align: left;
-    cursor: pointer;
+    cursor: inherit;
     transition: 0.3s ease-out;
     &:hover {
         color: $softRed;
