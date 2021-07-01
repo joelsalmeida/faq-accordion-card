@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <link rel="stylesheet" href="sass/sass.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="no-overflow">
+
+    <img src="images/illustration-box-desktop.svg" alt="" class="box-desktop-img">
+
+    <!-- FAQ ACCORDION CONTAINER -->
+    <section class="faq-accordion-container">
+
+      <!-- FAQ ACCORDION IMG -->
+      <picture class="faq-accordion_img">
+        <source media="(min-width: 1024px)" srcset="images/illustration-woman-online-desktop.svg">
+        <img src="images/illustration-woman-online-mobile.svg" alt="" srcset="">
+      </picture>
+
+      <!-- FAQ ACCORDION BG -->
+      <picture class="faq-accordion_bg">
+        <source media="(min-width: 1024px)" srcset="images/bg-pattern-desktop.svg">
+        <img src="images/bg-pattern-mobile.svg" alt="" srcset="">
+      </picture>
+
+      <!-- Desktop Question Container -->
+      <div class="faq-accordion_question-container_desktop">
+
+        <!-- FAQ ACCORDION TITLE -->
+        <h2 class="faq-accordion_title">FAQ</h2>
+
+        <!-- FAQ ACCORDION QUESTION CONTAINER -->
+        <div class="faq-accordion_question-container">
+
+          <!-- QUESTION -->
+          <div class="faq-accordion_question">
+            <button class="faq-accordion_question-title">
+              How many team members can I invite?
+              <img src="images/icon-arrow-down.svg" alt="" class="question-title-img">
+            </button>
+
+            <p class="faq-accordion_question-content">
+              You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.
+            </p>
+          </div>
+
+          <!-- QUESTION -->
+          <div class="faq-accordion_question">
+            <button class="faq-accordion_question-title">
+              What is the maximum file upload size?
+              <img src="images/icon-arrow-down.svg" alt="" class="question-title-img">
+            </button>
+
+            <p class="faq-accordion_question-content">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+          </div>
+
+          <!-- QUESTION -->
+          <div class="faq-accordion_question">
+            <button class="faq-accordion_question-title">
+              How do I reset my password?
+              <img src="images/icon-arrow-down.svg" alt="" class="question-title-img">
+            </button>
+
+            <p class="faq-accordion_question-content">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+          </div>
+
+          <!-- QUESTION -->
+          <div class="faq-accordion_question">
+            <button class="faq-accordion_question-title">
+              Can I cancel my subscription?
+              <img src="images/icon-arrow-down.svg" alt="" class="question-title-img">
+            </button>
+
+            <p class="faq-accordion_question-content">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </div>
+
+          <!-- QUESTION -->
+          <div class="faq-accordion_question">
+            <button class="faq-accordion_question-title">
+              Do you provide additional support?
+              <img src="images/icon-arrow-down.svg" alt="" class="question-title-img">
+            </button>
+
+            <p class="faq-accordion_question-content">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+          </div>
+        </div>
+
+        <!-- End Question Container Desktop -->
+      </div>
+
+    </section>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="app/accordion.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+// ** PRIMARY COLORS
+
+$veryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+
+$softRed: hsl(14, 88%, 65%);
+
+
+// ** BACKGROUND GRADIENT COLORS
+
+$softViolet: hsl(273, 75%, 66%);
+
+$softBlue: hsl(240, 73%, 65%);
+
+
+// ** NEUTRAL COLORS
+
+$veryDarkDrayishBlue: hsl(237, 12%, 33%);
+
+$darkGrayishBlue: hsl(240, 6%, 50%);
+
+// Dividers
+
+$lightGrayishBlue: hsl(240, 5%, 91%);
+
+
+// ** TYPOGRAPHY
+
+$fontKumbh: 'Kumbh Sans', sans-serif;
+
+// ** SCREEN SIZES
+
+$large: 1024px;
+
+$medium: 768px; //Adjustments on intermediate screens. Media query nested within $small.
+
+$small: 1023px;

@@ -1,0 +1,13 @@
+@use "variables" as *;
+
+// ** GLOBALS
+
+body {
+    font-family: $fontKumbh;
+    font-size: 12px;
+    line-height: 150%;
+    color: $darkGrayishBlue;
+    background-image: linear-gradient($softViolet, $softBlue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
